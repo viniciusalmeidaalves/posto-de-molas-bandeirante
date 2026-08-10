@@ -1,13 +1,20 @@
 # Roadmap
 
-## Curto prazo
+## Estado atual
 
-- Adicionar README completo e documentação inicial
-- Definir uma licença para o repositório
-- Documentar o fluxo de atualização de conteúdo
+- Site institucional estático publicado como páginas HTML, CSS, JavaScript e assets de mídia.
+- Documentação principal organizada em `README.md` e na pasta `docs/`.
+- Não há licença definida no repositório.
 
-## Médio prazo
+## Manutenção planejada
 
-- Organizar assets e referências visuais
-- Avaliar a inclusão de um processo de deploy mais padronizado
-- Revisar a estrutura de páginas e navegação
+- Definir e adicionar uma licença, caso o projeto seja distribuído publicamente.
+- Manter a documentação sincronizada com as páginas e recursos efetivamente publicados.
+- Revisar periodicamente links, sitemap, assets e compatibilidade em navegadores.
+
+## Possíveis evoluções
+
+- Avaliar um processo de publicação mais padronizado para os arquivos estáticos.
+- Avaliar a inclusão de verificações automatizadas de links e arquivos, se a manutenção do projeto justificar essa necessidade.
+
+As evoluções acima são itens de avaliação e não representam funcionalidades já implementadas ou compromissos de implementação.

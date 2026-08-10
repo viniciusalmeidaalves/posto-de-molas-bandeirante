@@ -3,9 +3,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue)
-![Version](https://img.shields.io/badge/Version-1.0-success)
+![Font Awesome 6.5.0](https://img.shields.io/badge/Font%20Awesome-6.5.0-528DD7?logo=fontawesome&logoColor=white)
 
 Site institucional desenvolvido para apresentar os serviços, estrutura e informações de contato do Posto de Molas Bandeirante, uma empresa especializada em manutenção e componentes para veículos pesados.
 
@@ -24,7 +22,7 @@ Este projeto é um website estático com páginas voltadas à apresentação da 
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome para ícones
+- Font Awesome 6.5.0 para ícones, carregado via CDN
 - Arquivos estáticos locais (imagens, áudio e folhas de estilo)
 
 ## Estrutura do projeto
@@ -42,7 +40,14 @@ Este projeto é um website estático com páginas voltadas à apresentação da 
 ├── servicos.html
 ├── sitemap.xml
 ├── sobre.html
-└── htaccess
+├── htaccess
+└── docs/
+	├── architecture.md
+	├── installation.md
+	├── requirements.md
+	├── roadmap.md
+	├── technologies.md
+	└── workflow.md
 ```
 
 ## Funcionalidades principais
@@ -62,14 +67,27 @@ Este projeto é um website estático com páginas voltadas à apresentação da 
 
 > Não há dependências externas de build ou instalação adicionais para execução local deste projeto estático.
 
+Para simular um ambiente web local, também é possível utilizar qualquer servidor HTTP simples. A regra em `htaccess` é destinada a servidores Apache e redireciona acessos pela porta 80 para HTTPS.
+
+## Uso
+
+Abra `index.html` para acessar a página inicial e use o menu para navegar entre as páginas institucionais. O conteúdo de serviços, imagens, áudio e links de contato é apresentado diretamente no navegador.
+
 ## Documentação
 
-A documentação complementar está disponível na pasta `docs/`.
+A documentação complementar está disponível na pasta `docs/`:
+
+- [Arquitetura](docs/architecture.md)
+- [Instalação e execução](docs/installation.md)
+- [Requisitos](docs/requirements.md)
+- [Roadmap](docs/roadmap.md)
+- [Tecnologias](docs/technologies.md)
+- [Workflow](docs/workflow.md)
 
 ## Screenshots
 
-Imagens e mídias locais estão organizadas na pasta `img/` e `audio/`.
+Não há uma pasta de screenshots dedicada no repositório. As imagens e demais mídias utilizadas pelo site estão organizadas em `img/` e `audio/`.
 
 ## Licença
 
-Este projeto não possui arquivo de licença definido no repositório. Recomenda-se revisar a necessidade de adicionar uma licença antes de publicar publicamente.
+Este projeto não possui um arquivo de licença definido no repositório.
