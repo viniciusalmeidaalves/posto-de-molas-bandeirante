@@ -1,9 +1,9 @@
 # Posto de Molas Bandeirante
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Font Awesome 6.5.0](https://img.shields.io/badge/Font%20Awesome-6.5.0-528DD7?logo=fontawesome&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![Font Awesome 6.5.0](https://img.shields.io/badge/Font%20Awesome-6.5.0-528DD7?logo=fontawesome&logoColor=white&style=for-the-badge)
 
 Site institucional desenvolvido para apresentar os serviços, estrutura e informações de contato do Posto de Molas Bandeirante, uma empresa especializada em manutenção e componentes para veículos pesados.
 
