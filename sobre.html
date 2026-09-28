@@ -6,8 +6,14 @@
         <meta name="keywords" content="sobre posto de molas, história oficina caminhão, tradição em molas, posto de molas São Carlos, equipe especializada, estrutura oficina">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sobre | Posto de Molas Bandeirante</title>
+        <link rel="canonical" href="https://www.postodemolasbandeirante.com.br/sobre.html">
+        <meta property="og:title" content="Sobre o Posto de Molas Bandeirante">
+        <meta property="og:description" content="Conheça a história e a experiência do Posto de Molas Bandeirante em São Carlos.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.postodemolasbandeirante.com.br/sobre.html">
         <link rel="icon" href="./img/icones/favicon-posto-de-molas-bandeirante.png" type="image/x-icon">
         <link rel="stylesheet" href="./css/estilos.min.css">
+        <link rel="stylesheet" href="./css/melhorias.css?v=8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
         <script src="https://kit.fontawesome.com/dc52f1179d.js" crossorigin="anonymous"></script>
     
@@ -20,9 +26,9 @@
         <!-- Inicio - Menu -->
         <header>
 
-            <div class="menu-toggle" id="menu-toggle">
-            <i class="fas fa-bars"></i>
-            </div>
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
             <nav id="nav">
             <a href="index.html">Home</a>
             <a href="sobre.html" class="active">Sobre</a>
@@ -39,30 +45,55 @@
         <!-- Final - Menu -->
         <hr>
         <!-- Início - Cabeçalho da Página -->
-        <div class="page-header">
-            <h1>Sobre o Posto de Molas Bandeirante</h1>
-            <p>Conheça nossa história, valores e a equipe que faz a diferença no atendimento ao seu veículo</p>
-        </div>
+        <section class="about-hero" aria-labelledby="about-hero-title">
+            <div class="about-hero__content">
+                <p class="about-hero__eyebrow">Desde 2010 em São Carlos</p>
+                <h1 id="about-hero-title">Experiência que mantém sua frota na estrada</h1>
+                <p>Conheça a história do Posto de Molas Bandeirante e a estrutura construída para atender caminhões, carretas e veículos pesados.</p>
+                <a class="about-hero__button" href="estrutura.html">Conheça nossa estrutura</a>
+            </div>
+            <div class="about-hero__image">
+                <img src="./img/imagens/fachada-posto-de-molas-bandeirante-antiga-preto-e-branco.png" alt="Fachada histórica do Posto de Molas Bandeirante" fetchpriority="high" decoding="async">
+            </div>
+        </section>
         <!-- Final - Cabeçalho da Página -->
 
         <!-- Início - Seção História -->
         <div class="historia-section">
             <div class="container">
-                <h2 class="section-title">Nossa História</h2>
+                <div class="about-section-heading">
+                    <p class="about-section-heading__eyebrow">Nossa trajetória</p>
+                    <h2 class="section-title">Uma história construída na prática</h2>
+                </div>
                 
                 <div class="historia-content">
                     <div class="historia-texto">
-                        <p>O <strong>Posto de Molas Bandeirante</strong> iniciou suas atividades em 2010, em um pequeno galpão  em São Carlos, com o objetivo de oferecer serviços especializados de suspensão para caminhões com excelência e dedicação.</p>
+                        <p>O <strong>Posto de Molas Bandeirante</strong> iniciou suas atividades em 2010, em um pequeno galpão em São Carlos, com o objetivo de oferecer serviços especializados de suspensão para caminhões.</p>
                         
                         <p>Com apenas três colaboradores e equipamentos básicos, o início foi desafiador. Porém, graças ao compromisso com a qualidade no atendimento e serviços realizados, rapidamente ganhamos a confiança de transportadores autônomos e pequenas frotas da região.</p>
                         
-                        <p>Em 2015, devido ao crescimento constante, nos ampliamos o espaço localizado na Rua Santa Gertrudes, para melhorar nossa capacidade de atendimento e investindo em equipamentos mais modernos. Hoje, com mais de 15 anos de atuação, somos referência em suspensão para veículos pesados em toda a região, atendendo clientes de diversas cidades do interior paulista.</p>
+                        <p>Em 2015, ampliamos o espaço na Rua Santa Gertrudes para aumentar a capacidade de atendimento e investir em equipamentos mais modernos. Hoje, com mais de 15 anos de atuação, atendemos clientes de diversas cidades do interior paulista.</p>
                         
                         <p>Além dos serviços de suspensão, ao longo dos anos expandimos nosso portfólio para atender outras demandas do setor, como alinhamento, troca de molas e manutenção preventiva. Nosso compromisso é continuar evoluindo, sempre priorizando a segurança e a satisfação dos nossos clientes.</p>
                     </div>
                     
                     <div class="historia-imagem">
                         <img src="./img/imagens/fachada-posto-de-molas-bandeirante-antiga-preto-e-branco.png" alt="Imagem - Fachada do Posto de Molas Bandeirante Antiga">
+                    </div>
+                </div>
+
+                <div class="about-stats" aria-label="Números da empresa">
+                    <div class="about-stat">
+                        <strong>2010</strong>
+                        <span>Início das atividades</span>
+                    </div>
+                    <div class="about-stat">
+                        <strong>15+</strong>
+                        <span>Anos de experiência</span>
+                    </div>
+                    <div class="about-stat">
+                        <strong>SP</strong>
+                        <span>Atendimento regional</span>
                     </div>
                 </div>
                 
@@ -187,7 +218,7 @@
                     <h3>Contato</h3>
                     <p>Rua Santa Gertrudes, 1101</p>
                     <p>São Carlos-SP - CEP: 13570-800</p>
-                    <p>(16) 3368-6238</p>
+                    <p><a href="tel:+551633689238">(16) 3368-9238</a></p>
                     <div class="social-footer">
                         <a href="https://www.facebook.com/postodemolasbandeiranteoficial2/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/postodemolasbandeiranteoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -231,6 +262,14 @@
               <i class="fab fa-whatsapp"></i>
             </a>
 
+        <div vw class="enabled">
+            <div vw-access-button class="active" aria-label="Abrir acessibilidade em Libras"></div>
+            <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+        <script src="./js/runtime-guards.js?v=2"></script>
         <script src="./js/scripts.min.js"></script>
+        <script src="./js/acessibilidade.js?v=3" defer></script>
     </body>
 </html>

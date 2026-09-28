@@ -6,8 +6,14 @@
     <meta name="keywords" content="contato posto de molas, telefone posto de molas bandeirante, caminhões São Carlos, assistência para caminhão, oficina caminhão São Carlos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | Posto de Molas Bandeirante</title>
+    <link rel="canonical" href="https://www.postodemolasbandeirante.com.br/contato.html">
+    <meta property="og:title" content="Contato | Posto de Molas Bandeirante">
+    <meta property="og:description" content="Entre em contato com o Posto de Molas Bandeirante em São Carlos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.postodemolasbandeirante.com.br/contato.html">
     <link rel="icon" href="./img/icones/favicon-posto-de-molas-bandeirante.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.min.css">
+    <link rel="stylesheet" href="./css/melhorias.css?v=2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="https://kit.fontawesome.com/dc52f1179d.js" crossorigin="anonymous"></script>
 
@@ -20,9 +26,9 @@
     <!-- Início - Menu -->
     <header>
 
-        <div class="menu-toggle" id="menu-toggle">
-            <i class="fas fa-bars"></i>
-        </div>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
         <nav id="nav">
             <a href="index.html">Home</a>
             <a href="sobre.html">Sobre</a>
@@ -73,7 +79,7 @@
                         <div class="icon-wrapper"><i class="fas fa-phone-alt"></i></div>
                         <div class="info-content">
                             <h4>Telefones</h4>
-                            <p>Ligue: (16) 3368-9238<br>WhatsApp: (16) 99771-7465</p>
+                            <p>Ligue: <a href="tel:+551633689238">(16) 3368-9238</a><br>WhatsApp: <a href="https://wa.me/5516997717465">(16) 99771-7465</a></p>
                         </div>
                     </div>
 
@@ -81,7 +87,7 @@
                         <div class="icon-wrapper"><i class="fas fa-envelope"></i></div>
                         <div class="info-content">
                             <h4>E-mail</h4>
-                            <p>comercial@postodemolasbandeirante.com.br</p>
+                            <p><a href="mailto:comercial@postodemolasbandeirante.com.br">comercial@postodemolasbandeirante.com.br</a></p>
                         </div>
                     </div>
 
@@ -96,9 +102,9 @@
                     <div class="social-contact">
                         <h4>Siga-nos nas Redes Sociais</h4>
                         <div class="social-icons-contact">
-                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/postodemolasbandeiranteoficial2/" target="_blank" rel="noopener noreferrer" aria-label="Facebook do Posto de Molas Bandeirante"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/postodemolasbandeiranteoficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Posto de Molas Bandeirante"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/company/postodemolasbandeiranteoficial/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn do Posto de Molas Bandeirante"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +112,7 @@
                 <!-- Formulário de Contato -->
                 <div class="contact-form-container">
                     <h3>FALE CONOSCO</h3>
-                    <form id="contact-form" class="contact-form">
+                    <form id="contact-form" class="contact-form" action="https://wa.me/5516997717465" method="get" target="_blank">
                         <div class="form-group">
                             <label for="contact-nome">Nome</label>
                             <input type="text" id="contact-nome" name="nome" placeholder="Seu nome completo" required>
@@ -162,8 +168,8 @@
             <div class="directions">
                 <h4>Como Chegar</h4>
                 <p>Estamos localizados em uma região de fácil acesso, próximo à Rodovia Washington Luís (SP-310).</p>
-                <a href="#" target="_blank" class="btn-directions">
-                    <i class="fas fa-directions"></i> Abrir no Google Maps
+                <a href="https://www.google.com/maps/dir/?api=1&destination=-22.03728884519225,-47.88099730302542" target="_blank" rel="noopener noreferrer" class="btn-directions">
+                    <i class="fas fa-directions" aria-hidden="true"></i> Abrir no Google Maps
                 </a>
             </div>
         </div>
@@ -203,7 +209,7 @@
                 <h3>Contato</h3>
                 <p>Rua Santa Gertrudes, 1101</p>
                 <p>São Carlos-SP - CEP: 13570-800</p>
-                <p>(16) 3368-6238</p>
+                <p><a href="tel:+551633689238">(16) 3368-9238</a></p>
                 <div class="social-footer">
                     <a href="https://www.facebook.com/postodemolasbandeiranteoficial2/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/postodemolasbandeiranteoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -247,6 +253,15 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+        <div vw class="enabled">
+            <div vw-access-button class="active" aria-label="Abrir acessibilidade em Libras"></div>
+            <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+        <script src="./js/runtime-guards.js?v=2"></script>
     <script src="./js/scripts.min.js"></script>
+    <script src="./js/acessibilidade.js?v=3" defer></script>
+    <script src="./js/contato.js" defer></script>
 </body>
 </html>
