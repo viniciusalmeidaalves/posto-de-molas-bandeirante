@@ -1,0 +1,39 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependencias e caches
+node_modules/
+.npm/
+.cache/
+.parcel-cache/
+
+# Codigo do site mantido apenas na publicacao oficial
+css/
+js/
+
+# Arquivos temporarios e logs
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Variaveis e configuracoes locais
+.env
+.env.*
+!.env.example
+
+# Saidas locais de desenvolvimento
+dist/
+build/
+coverage/
+
+# Documentacao interna nao publicada
+docs/

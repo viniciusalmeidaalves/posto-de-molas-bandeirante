@@ -1,81 +1,72 @@
 # Posto de Molas Bandeirante
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![Font Awesome 6.5.0](https://img.shields.io/badge/Font%20Awesome-6.5.0-528DD7?logo=fontawesome&logoColor=white&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![Font Awesome 6.5.0](https://img.shields.io/badge/Font%20Awesome-6.5.0-528DD7?logo=fontawesome&logoColor=white&style=flat)
 
-Site institucional desenvolvido para apresentar os serviços, estrutura e informações de contato do Posto de Molas Bandeirante, uma empresa especializada em manutenção e componentes para veículos pesados.
+Projeto institucional desenvolvido para o Posto de Molas Bandeirante, com foco na apresentação da empresa, dos serviços para veículos pesados e dos canais de contato em São Carlos.
 
 ## Visão geral
 
-Este projeto é um website estático com páginas voltadas à apresentação da empresa, incluindo:
+O projeto foi construído como um website estático para apresentar:
 
-- Página inicial com apresentação da marca e conteúdo institucional
-- Página de serviços com destaque para suspensão, freios, feixes de molas e manutenção
-- Página sobre a empresa e estrutura operacional
-- Página de contato com informações de comunicação
-- Página de privacidade e sitemap
+- a marca, a história e a estrutura do Posto de Molas Bandeirante;
+- serviços de suspensão, freios, feixes de molas, alinhamento e solda;
+- informações de contato, localização e redes sociais;
+- uma experiência responsiva para desktop e dispositivos móveis.
 
-## Tecnologias utilizadas
+## Stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome 6.5.0 para ícones, carregado via CDN
-- Arquivos estáticos locais (imagens, áudio e folhas de estilo)
+- Font Awesome 6.5.0 via CDN
+- Apache `htaccess` para redirecionamento HTTP para HTTPS
+- Imagens, áudio e demais arquivos estáticos locais
 
-## Estrutura do projeto
+## Destaques
 
-```text
-.
-├── audio/
-├── css/
-├── img/
-├── js/
-├── contato.html
-├── estrutura.html
-├── index.html
-├── privacidade.html
-├── servicos.html
-├── sitemap.xml
-├── sobre.html
-├── htaccess
-└── docs/
-	├── architecture.md
-	├── installation.md
-	├── requirements.md
-	├── roadmap.md
-	├── technologies.md
-	└── workflow.md
-```
+- navegação entre páginas institucionais;
+- menu responsivo e carrosséis de conteúdo;
+- apresentação visual dos serviços e da estrutura da empresa;
+- reprodução de áudio institucional;
+- formulário e links de contato, WhatsApp e redes sociais;
+- páginas de privacidade e sitemap para apoio à publicação do site.
 
-## Funcionalidades principais
+## Screenshots
 
-- Navegação entre páginas institucionais
-- Menu responsivo
-- Carrossel de imagens na página inicial
-- Reprodução de áudio institucional
-- Seção de serviços e estrutura da empresa
-- Formulário de contato e links para redes sociais
+### Página inicial
 
-## Como executar localmente
+![Página inicial](screenshots/home.png)
 
-1. Clone este repositório.
-2. Acesse a pasta do projeto.
-3. Abra o arquivo `index.html` em um navegador.
+### Serviços
 
-> Não há dependências externas de build ou instalação adicionais para execução local deste projeto estático.
+![Página de serviços](screenshots/serviços.png)
 
-Para simular um ambiente web local, também é possível utilizar qualquer servidor HTTP simples. A regra em `htaccess` é destinada a servidores Apache e redireciona acessos pela porta 80 para HTTPS.
+### Localização e contato
 
-## Uso
+![Página de localização](screenshots/localização.png)
 
-Abra `index.html` para acessar a página inicial e use o menu para navegar entre as páginas institucionais. O conteúdo de serviços, imagens, áudio e links de contato é apresentado diretamente no navegador.
+## Arquitetura
+
+O repositório é composto por páginas HTML independentes na raiz, uma folha de estilos compartilhada, scripts de interação e arquivos de mídia locais:
+
+- camada de apresentação: `index.html`, `sobre.html`, `estrutura.html`, `servicos.html`, `contato.html` e `privacidade.html`;
+- estilos e comportamento: `css/` e `js/`;
+- conteúdo visual e áudio: `img/` e `audio/`;
+- publicação e indexação: `htaccess`, `robots.txt` e `sitemap.xml`;
+- documentação técnica complementar: `docs/`.
+
+Não há backend, banco de dados, autenticação, framework de aplicação, processo de build ou gerenciador de dependências no projeto.
+
+## Execução local
+
+O site pode ser aberto diretamente pelo arquivo `index.html` ou servido por qualquer servidor HTTP estático. Não há instalação de dependências necessária.
+
+Para publicação, a pasta raiz pode ser hospedada em um serviço de hospedagem estática ou em um servidor Apache. A configuração `htaccess` deve ser usada somente em ambientes Apache.
 
 ## Documentação
-
-A documentação complementar está disponível na pasta `docs/`:
 
 - [Arquitetura](docs/architecture.md)
 - [Instalação e execução](docs/installation.md)
@@ -84,10 +75,10 @@ A documentação complementar está disponível na pasta `docs/`:
 - [Tecnologias](docs/technologies.md)
 - [Workflow](docs/workflow.md)
 
-## Screenshots
+## Observação importante
 
-Não há uma pasta de screenshots dedicada no repositório. As imagens e demais mídias utilizadas pelo site estão organizadas em `img/` e `audio/`.
+Este repositório contém a implementação de apresentação do site institucional. O projeto não possui licença de código aberto definida e não inclui backend ou área administrativa.
 
-## Licença
+## Site
 
-Este projeto não possui um arquivo de licença definido no repositório.
+[www.postodemolasbandeirante.com.br](https://www.postodemolasbandeirante.com.br/)
